@@ -27,32 +27,13 @@
           "children": [
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Table1",
-              "defaultPageSize": 0,
-              "columnOrder": [
-                "step",
-                "task",
-                "status",
-                "action"
-              ],
-              "dynamicPropertyPathList": [],
               "isVisibleDownload": true,
-              "displayName": "Table",
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
               "topRow": 5,
-              "bottomRow": 33,
-              "columnWidthMap": {
-                "task": 245,
-                "step": 62,
-                "status": 75
-              },
               "isSortable": true,
-              "parentRowSpace": 10,
               "type": "TABLE_WIDGET_V2",
-              "hideCard": false,
               "inlineEditingSaveOption": "ROW_LEVEL",
               "animateLoading": true,
-              "parentColumnSpace": 27.28125,
               "dynamicBindingPathList": [
                 {
                   "key": "primaryColumns.step.computedValue"
@@ -116,6 +97,62 @@
                 }
               ],
               "leftColumn": 10,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "step",
+                "task",
+                "status",
+                "action"
+              ],
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "bottomRow": 33,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "parentColumnSpace": 27.28125,
+              "dynamicTriggerPathList": [],
               "primaryColumns": {
                 "step": {
                   "index": 0,
@@ -203,15 +240,11 @@
                   "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}"
                 }
               },
-              "delimiter": ",",
-              "defaultSelectedRowIndex": 0,
               "key": "ktn6vz3fpk",
               "isDeprecated": false,
               "rightColumn": 44,
               "textSize": "0.875rem",
               "widgetId": "wv2rqt8flp",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisibleFilters": true,
               "tableData": [
                 {
                   "step": "#1",
@@ -232,45 +265,13 @@
                   "action": ""
                 }
               ],
-              "isVisible": true,
               "label": "Data",
               "searchKey": "",
-              "enableClientSideSearch": true,
-              "version": 1,
-              "totalRecordsCount": 0,
               "parentId": "0",
               "renderMode": "CANVAS",
-              "isLoading": false,
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
-              "childStylesheet": {
-                "button": {
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                },
-                "menuButton": {
-                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                },
-                "iconButton": {
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "boxShadow": "none"
-                },
-                "editActions": {
-                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-                }
-              },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "isVisiblePagination": true,
-              "defaultSelectedRowIndices": [
-                0
-              ],
               "verticalAlignment": "CENTER"
             },
             {
